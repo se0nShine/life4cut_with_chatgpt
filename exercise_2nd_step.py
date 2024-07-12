@@ -40,8 +40,15 @@ def combine_images_vertically(images, padding=10, gap=10):
     height, width, _ = images[0].shape
 
     # 패딩이 적용된 이미지 크기
-    padded_height = height + 2 * padding
-    padded_width = width + 2 * padding
+    ############## Question 1. 패딩이 적용된 이미지의 크기 구하기 ##############
+    # 패딩이 적용된 높이 padded_height 에 어떤 값이 들어가야 하는지 입력하세요.
+    # 패딩이 적용된 폭 padded_width 에 어떤 값이 들아가야 하는지 입력하세요.
+    # Hint. 사용되는 변수는 height, width 두가지이며, 형태는 다음과 같습니다.
+    # padded_height = ___ + __ * _____
+    # padded_width = ___ + __ * _____
+    padded_height = None
+    padded_width = None 
+    ##########################################################################
 
     # 세로로 결합할 때 전체 높이를 계산합니다 (간격 포함)
     combined_height = padded_height * 4 + gap * 3
@@ -51,7 +58,10 @@ def combine_images_vertically(images, padding=10, gap=10):
 
     # 이미지를 배치할 때 패딩과 간격을 적용합니다
     for i in range(4):
-        y_offset = i * (padded_height + gap)
+        ##################### Question 2. 'None' 자리에 들어갈 올바른 값을 작성하세요. ######################
+        # Hint. 이미지를 배치하는 (세로 방향의) 간격은 패딩이 적용된 이미지의 높이와 이미지간 거리의 합이 됩니다.
+        y_offset = i * None 
+        ###################################################################################################
         combined_image[y_offset + padding:y_offset + padding + height, padding:padding + width] = images[i]
 
     return combined_image
