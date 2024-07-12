@@ -62,7 +62,7 @@ def main():
         combined_image = combine_images_vertically(captured_images)
         if combined_image is not None:
             # 결합된 이미지를 저장합니다
-            cv2.imwrite('combined_image_vertical.jpg', combined_image)
+            ('combined_image_vertical.jpg', combined_image)
             print("결합된 이미지를 'combined_image_vertical.jpg'로 저장했습니다.")
             # 저장된 이미지를 보여줍니다
             cv2.imshow('Combined Image', combined_image)
