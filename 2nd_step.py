@@ -47,7 +47,7 @@ def combine_images_vertically(images, padding=10, gap=10):
     combined_height = padded_height * 4 + gap * 3
 
     # 빈 이미지(검은색 배경)를 만듭니다
-    combined_image = ((combined_height, padded_width, 3), dtype=np.uint8)
+    combined_image = np.zeros((combined_height, padded_width, 3), dtype=np.uint8)
 
     # 이미지를 배치할 때 패딩과 간격을 적용합니다
     for i in range(4):
