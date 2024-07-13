@@ -9,5 +9,5 @@
 실습 파일 1 > [step_1](./colab_webcam_step1.ipynb)  
 실습 파일 2 > [step_2](./colab_webcam_step2.ipynb)  
 실습 파일 3 > [custom_background](./colab_custom_background_1.ipynb)
-
+실습 파일 4 > [custom_gray_and_text](./colab_custom_gray_text.ipynb)
 
