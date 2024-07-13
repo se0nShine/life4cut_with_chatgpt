@@ -37,7 +37,7 @@ def combine_images_vertically(images, padding=10, gap=10):
         return None
 
     # 각 이미지의 크기를 구합니다
-    , , _ = images[0].shape
+    height, width , _ = images[0].shape
 
     # 패딩이 적용된 이미지 크기
     padded_height = height + 2 * padding
