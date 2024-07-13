@@ -2,7 +2,7 @@
 
 ![poster](./assets/preview.png)
 
-## Pycharm 설치 사이트
-클릭 > [pycharm](https://www.jetbrains.com/pycharm/download/other.html)
+## colab 사이트
+클릭 > [colab](https://colab.google/)
 
 
