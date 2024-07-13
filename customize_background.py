@@ -16,7 +16,7 @@ def load_and_modify_image(file_path):
 
 def main():
     # 저장된 결합된 이미지 파일 경로
-    file_path = 'combined_image_vertical.jpg'
+    file_path = '/content/combined_image_vertical.jpg'
 
     # 이미지를 불러와서 수정합니다
     modified_image = load_and_modify_image(file_path)
