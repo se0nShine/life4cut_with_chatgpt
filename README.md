@@ -6,11 +6,12 @@
 클릭 > [colab](https://colab.google/)
   
 ## 파일을 다운 받아서 드라이브에 올려서 실행합니다.
-실습 파일 1 > [step_1](./colab_webcam_step1.ipynb)  
-실습 파일 2 > [step_2](./colab_webcam_step2.ipynb)  
-실습 파일 3 > [custom_background](./colab_custom_background.ipynb) 이미지의 테두리 바꿔보기  
-실습 파일 4 > [custom_gray_and_text](./colab_custom_all.ipynb)  이미지를 흑백으로 바꿔보기 / 텍스트 추가해보기 / 나만의 인생네컷 만들어보기
-  
+실습 파일 1 > [step_1](./src/colab_webcam_step1.ipynb)  
+실습 파일 2 > [step_2](./src/colab_webcam_step2.ipynb)  
+실습 파일 3 > [custom_background](./src/colab_custom_background.ipynb) 이미지의 테두리 바꿔보기  
+실습 파일 4 > [custom_gray_and_text](./src/colab_custom_all.ipynb)  이미지를 흑백으로 바꿔보기 / 텍스트 추가해보기 / 나만의 인생네컷 만들어보기
+*code base (https://colab.research.google.com/drive/1QnC7lV7oVFk5OZCm75fqbLAfD9qBy9bw)
+    
 # Overview
 - 전체 수업 자료를 보시려면 *[클릭](./assets/step4.png)* 하세요.
   
