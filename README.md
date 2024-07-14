@@ -1,4 +1,5 @@
-# 파이썬과 컴퓨터 비전, chatgpt를 이용하여 *나만의 인생네컷 만들기*
+# 파이썬, 컴퓨터 비전, chatgpt를 이용해   
+# *나만의 인생네컷 만들기*
 #### Notice : Colab 버전의 코드입니다.
 ![poster](./assets/preview.png)
 
